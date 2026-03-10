@@ -52,12 +52,15 @@ publisher = WeChatPublisher(app_id="YOUR_APP_ID", app_secret="YOUR_APP_SECRET")
 
 # 发布文章
 result = publisher.publish_article(
-    title="文章标题",
+    title="文章标题",   
     content="<html>文章内容</html>",
     cover_img_path="封面图片路径.jpg"
     digest="文章摘要",
     
 )
+
+说明
+- title 热点比赛事件为标题
 
 if result["success"]:
     print(f"文章已发布到草稿箱，ID: {result['media_id']}")
