@@ -1,27 +1,68 @@
-<h2>今日足球速报</h2>
+<h1 style="font-size:26px;text-align:center;margin-bottom:10px;">
+⚽ 今日足球速报
+</h1>
 
-<p>{date}</p>
+<p style="text-align:center;color:#888;font-size:14px;margin-bottom:25px;">
+{date}
+</p>
 
-<p>&nbsp;</p>
+<hr style="border:none;border-top:1px solid #eee;margin:20px 0;" />
 
-<h2>今日比赛战报</h2>
+<h2 style="margin:24px 0 16px 0;">🏆 今日比赛战报</h2>
+
+<!-- 单场比赛模板 -->
+<div style="background:#f8f8f8;padding:12px 14px;border-radius:6px;margin-bottom:12px;">
+<p style="margin:0;font-weight:bold;">{match_title}</p>
+<p style="margin:6px 0;">比分：{score}</p>
+<p style="margin:0;color:#555;line-height:1.7;">
+{match_summary}
+</p>
+</div>
 
 {match_news}
 
 <p>&nbsp;</p>
 
-<h2>焦点新闻</h2>
+<h2 style="margin:24px 0 16px 0;">🔥 焦点新闻</h2>
+
+<ul style="line-height:1.8;color:#333;">
+<li>{news1}</li>
+<li>{news2}</li>
+<li>{news3}</li>
+<li>{news4}</li>
+</ul>
 
 {hot_news}
 
 <p>&nbsp;</p>
 
-<h2>转会动态</h2>
+<h2 style="margin:24px 0 16px 0;">💰 转会动态</h2>
+
+<ul style="line-height:1.8;">
+<li><strong>{team1}</strong>：{transfer1}</li>
+<li><strong>{team2}</strong>：{transfer2}</li>
+<li><strong>{team3}</strong>：{transfer3}</li>
+</ul>
 
 {transfer_news}
 
 <p>&nbsp;</p>
 
-<h2>明日赛程</h2>
+<h2 style="margin:24px 0 16px 0;">📅 明日赛程</h2>
+
+<ul style="line-height:1.8;">
+<li>{match_time1} {teamA1} vs {teamB1}</li>
+<li>{match_time2} {teamA2} vs {teamB2}</li>
+<li>{match_time3} {teamA3} vs {teamB3}</li>
+</ul>
 
 {schedule}
+
+<p>&nbsp;</p>
+
+<hr style="border:none;border-top:1px solid #eee;margin:25px 0;" />
+
+<p style="text-align:center;color:#888;font-size:13px;line-height:1.6;">
+数据来源：权威体育新闻网站 RSS<br>
+仅整理真实新闻，不编造、不造谣、不涉及赌球、不做赛事预测
+</p>
