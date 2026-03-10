@@ -93,4 +93,4 @@ pip install requests requests_toolbelt Pillow
 
 ## 作者
 
-bbwdadfg (GitHub)
+creedxu (GitHub)
