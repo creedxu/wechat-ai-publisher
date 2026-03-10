@@ -110,7 +110,6 @@ pip install requests requests_toolbelt Pillow
 2. 确保网络可访问微信API服务器
 3. 文章内容需符合微信公众号规范
 4. 图片大小和格式需符合微信要求
-5. 段落之间两行间距
 6. 适合微信公众号，格式美观、不乱码、不冗余
 
 ## 错误处理
@@ -123,7 +122,7 @@ pip install requests requests_toolbelt Pillow
 
 ## 示例
 
-完整示例请参考 `examples/` 目录。
+完整示例请参考 `examples/` 目录。 保留空行
 
 ## 作者
 
