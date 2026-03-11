@@ -27,6 +27,8 @@
 - 不涉及赌球内容 
 - 不做赛事预测 
 - 自动汇总为 **「今日足球速报」文章**
+- 根据热点赛事事件生成文章标题和文章摘要
+- 根据热点赛事事件获取封面图片路径
 
 ---
 
@@ -58,9 +60,6 @@ result = publisher.publish_article(
     digest="文章摘要",
     
 )
-
-说明
-- title 热点比赛事件为标题
 
 if result["success"]:
     print(f"文章已发布到草稿箱，ID: {result['media_id']}")
